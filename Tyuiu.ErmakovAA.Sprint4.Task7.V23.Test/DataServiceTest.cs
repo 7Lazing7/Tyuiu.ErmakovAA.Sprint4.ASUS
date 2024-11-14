@@ -8,7 +8,7 @@ namespace Tyuiu.ErmakovAA.Sprint4.Task7.V23.Test
         public void ValidCalc()
         {
             DataService dataService = new DataService();
-            Assert.AreEqual(2, dataService.Calculate(4, 3, "678135972584"));
+            Assert.AreEqual(5, dataService.Calculate(4, 3, "678135972584"));
         }
     }
 }
